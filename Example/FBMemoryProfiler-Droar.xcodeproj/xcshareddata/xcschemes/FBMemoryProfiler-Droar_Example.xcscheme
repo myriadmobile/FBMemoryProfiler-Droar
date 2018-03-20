@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "netfox-Droar_Example.app"
-               BlueprintName = "netfox-Droar_Example"
-               ReferencedContainer = "container:netfox-Droar.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "netfox-Droar_Tests.xctest"
-               BlueprintName = "netfox-Droar_Tests"
-               ReferencedContainer = "container:netfox-Droar.xcodeproj">
+               BuildableName = "FBMemoryProfiler-Droar_Example.app"
+               BlueprintName = "FBMemoryProfiler-Droar_Example"
+               ReferencedContainer = "container:FBMemoryProfiler-Droar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,24 +29,14 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "netfox-Droar_Tests.xctest"
-               BlueprintName = "netfox-Droar_Tests"
-               ReferencedContainer = "container:netfox-Droar.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "netfox-Droar_Example.app"
-            BlueprintName = "netfox-Droar_Example"
-            ReferencedContainer = "container:netfox-Droar.xcodeproj">
+            BuildableName = "FBMemoryProfiler-Droar_Example.app"
+            BlueprintName = "FBMemoryProfiler-Droar_Example"
+            ReferencedContainer = "container:FBMemoryProfiler-Droar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "netfox-Droar_Example.app"
-            BlueprintName = "netfox-Droar_Example"
-            ReferencedContainer = "container:netfox-Droar.xcodeproj">
+            BuildableName = "FBMemoryProfiler-Droar_Example.app"
+            BlueprintName = "FBMemoryProfiler-Droar_Example"
+            ReferencedContainer = "container:FBMemoryProfiler-Droar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "netfox-Droar_Example.app"
-            BlueprintName = "netfox-Droar_Example"
-            ReferencedContainer = "container:netfox-Droar.xcodeproj">
+            BuildableName = "FBMemoryProfiler-Droar_Example.app"
+            BlueprintName = "FBMemoryProfiler-Droar_Example"
+            ReferencedContainer = "container:FBMemoryProfiler-Droar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
