@@ -1,0 +1,6 @@
+framework module Pods_FBMemoryProfiler_Droar_Example {
+  umbrella header "Pods-FBMemoryProfiler-Droar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
