@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "Loader.h"
+#import "FBMemoryProfiler_DroarLoader.h"
 
 FOUNDATION_EXPORT double FBMemoryProfiler_DroarVersionNumber;
 FOUNDATION_EXPORT const unsigned char FBMemoryProfiler_DroarVersionString[];

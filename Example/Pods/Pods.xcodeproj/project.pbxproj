@@ -131,10 +131,10 @@
 		A9AA2EF298DA83A2478986C4088DE4AC /* FBMemoryProfilerContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9849896761BB02F4BB50A2DB62D398B8 /* FBMemoryProfilerContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA3B67006DB069E77DB391844DB76B79 /* FBMemoryProfilerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E45F96A62C0BF05D74088E1B64889BDD /* FBMemoryProfilerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC160BABAD2A16C855D47BE46C658B82 /* FBMemoryProfilerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96814B5F6915CC69D00F6D6F837AD38 /* FBMemoryProfilerViewController.m */; };
-		AE424D2BEC024D9ED37D6911BBA9D7E9 /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF51F694BA03414E3EA0BF7BB9DDB09 /* Loader.m */; };
+		AE424D2BEC024D9ED37D6911BBA9D7E9 /* FBMemoryProfiler_DroarLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF51F694BA03414E3EA0BF7BB9DDB09 /* FBMemoryProfiler_DroarLoader.m */; };
 		B2283FAD9148793A06838A3BCD0C6A94 /* FBStandardGraphEdgeFilters.mm in Sources */ = {isa = PBXBuildFile; fileRef = D540E2577EB10D847F92E87439D11D99 /* FBStandardGraphEdgeFilters.mm */; };
 		B2C7EEF62FCD8B899F2ACAE4CC894E3E /* FBMemoryProfiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C738B4FCA1C63BF4C6E5AF573584938 /* FBMemoryProfiler.mm */; };
-		B2D31434805D7B9F157B7277499D9F5E /* Loader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3818B3E88AA9B670DD9DCA90B9BAD4 /* Loader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D31434805D7B9F157B7277499D9F5E /* FBMemoryProfiler_DroarLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3818B3E88AA9B670DD9DCA90B9BAD4 /* FBMemoryProfiler_DroarLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3EBB56EF2832830C66D481C745E6883 /* FBAllocationTrackerNSZombieSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = E00A10AABD5F9A48BF56281C264FA5F3 /* FBAllocationTrackerNSZombieSupport.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B4797779F0C105B4D6B415F47E80C24F /* NSObject+FBAllocationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 099B60C8CDB86FD47E69DC81FD745DE7 /* NSObject+FBAllocationTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B5B1EF9B48168719160D165AC8398FE1 /* FBRetainCycleDetector+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E380D9F4F504B06F0A180C008CE756 /* FBRetainCycleDetector+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -359,7 +359,7 @@
 		4A9979E82BF7A69DE7CBF8C6E03FF31B /* FBMemoryProfilerSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBMemoryProfilerSegmentedControl.m; path = FBMemoryProfiler/UI/FBMemoryProfilerSegmentedControl.m; sourceTree = "<group>"; };
 		4B74AAE0CA63694CE15A18DCCE8ADD8F /* DroarSwitchCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DroarSwitchCell.xib; path = Droar/Classes/Cells/DroarSwitchCell.xib; sourceTree = "<group>"; };
 		4DB2BDA3A91FC80E4352CB709B4E0501 /* FBAllocationTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAllocationTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EF51F694BA03414E3EA0BF7BB9DDB09 /* Loader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Loader.m; path = "FBMemoryProfiler-Droar/Classes/Loader.m"; sourceTree = "<group>"; };
+		4EF51F694BA03414E3EA0BF7BB9DDB09 /* FBMemoryProfiler_DroarLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBMemoryProfiler_DroarLoader.m; path = "FBMemoryProfiler-Droar/Classes/FBMemoryProfiler_DroarLoader.m"; sourceTree = "<group>"; };
 		50BC38BE1DD6D8B598A0FDC92F8398AC /* FBMemoryProfilerDeviceUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMemoryProfilerDeviceUtils.h; path = FBMemoryProfiler/Utils/FBMemoryProfilerDeviceUtils.h; sourceTree = "<group>"; };
 		52127254495E533C96558C30BD48E0A6 /* BaseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseType.h; path = FBRetainCycleDetector/Layout/Classes/Parser/BaseType.h; sourceTree = "<group>"; };
 		53BF86C03907E11328E18C17C0FEF07E /* FBMemoryProfilerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMemoryProfilerViewController.h; path = FBMemoryProfiler/Controllers/FBMemoryProfilerViewController.h; sourceTree = "<group>"; };
@@ -401,7 +401,7 @@
 		87FCE413A140D27CBEBF8FFC4954867C /* FBMemoryProfilerDeviceUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBMemoryProfilerDeviceUtils.m; path = FBMemoryProfiler/Utils/FBMemoryProfilerDeviceUtils.m; sourceTree = "<group>"; };
 		894ECD168C4CEE1202C8957FFA0B6B1F /* FBAllocationTrackerGenerationManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FBAllocationTrackerGenerationManager.mm; path = FBAllocationTracker/Generations/FBAllocationTrackerGenerationManager.mm; sourceTree = "<group>"; };
 		8BE63D30D6CED6BFB66D80ADC429BFBB /* FBMemoryProfilerFloatingButtonController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMemoryProfilerFloatingButtonController.h; path = FBMemoryProfiler/Controllers/FBMemoryProfilerFloatingButtonController.h; sourceTree = "<group>"; };
-		8C3818B3E88AA9B670DD9DCA90B9BAD4 /* Loader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Loader.h; path = "FBMemoryProfiler-Droar/Classes/Loader.h"; sourceTree = "<group>"; };
+		8C3818B3E88AA9B670DD9DCA90B9BAD4 /* FBMemoryProfiler_DroarLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMemoryProfiler_DroarLoader.h; path = "FBMemoryProfiler-Droar/Classes/FBMemoryProfiler_DroarLoader.h"; sourceTree = "<group>"; };
 		8DE3908881D78B4F4B0616986B3C52F0 /* FBMemoryProfiler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBMemoryProfiler-umbrella.h"; sourceTree = "<group>"; };
 		907FFD1EB1C8A0337AD7F87A16B4290E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B0B3DB90D21F2B5F83CD8E236EAF2D /* Pods-FBMemoryProfiler-Droar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBMemoryProfiler-Droar_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -601,8 +601,8 @@
 			children = (
 				60561489BC18B81567DDF62AFF84BFC1 /* FBMemoryProfiler-Droar.swift */,
 				1994C597FECFD3FC32962979B044F762 /* FBMemoryProfilerExtensions.swift */,
-				8C3818B3E88AA9B670DD9DCA90B9BAD4 /* Loader.h */,
-				4EF51F694BA03414E3EA0BF7BB9DDB09 /* Loader.m */,
+				8C3818B3E88AA9B670DD9DCA90B9BAD4 /* FBMemoryProfiler_DroarLoader.h */,
+				4EF51F694BA03414E3EA0BF7BB9DDB09 /* FBMemoryProfiler_DroarLoader.m */,
 				5A4D833C0E6A22352183B9283204336D /* Pod */,
 				0D9339F95C36E697931E3101F2CEECF3 /* Support Files */,
 			);
@@ -1080,7 +1080,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				445DA8377ECB802A2B4576E2FDF763D4 /* FBMemoryProfiler-Droar-umbrella.h in Headers */,
-				B2D31434805D7B9F157B7277499D9F5E /* Loader.h in Headers */,
+				B2D31434805D7B9F157B7277499D9F5E /* FBMemoryProfiler_DroarLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1462,7 +1462,7 @@
 				309D3CAAB04FB328D3E5B272D5437984 /* FBMemoryProfiler-Droar-dummy.m in Sources */,
 				A6A8DF84CA389D10509B6B94082D5CFB /* FBMemoryProfiler-Droar.swift in Sources */,
 				EB6F2E0926127837ADF42033033CD9F8 /* FBMemoryProfilerExtensions.swift in Sources */,
-				AE424D2BEC024D9ED37D6911BBA9D7E9 /* Loader.m in Sources */,
+				AE424D2BEC024D9ED37D6911BBA9D7E9 /* FBMemoryProfiler_DroarLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

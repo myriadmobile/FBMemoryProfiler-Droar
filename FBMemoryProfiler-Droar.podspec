@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FBMemoryProfiler-Droar'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A Droar plugin for FBMemoryProfiler'
 
 # This description is used to generate tags and improve search results.
