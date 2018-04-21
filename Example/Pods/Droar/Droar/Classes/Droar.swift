@@ -25,12 +25,15 @@ import Foundation
     internal static var viewController: DroarViewController?
     internal static let drawerWidth:CGFloat = 300
     private static let startOnce = DispatchOnce()
+    public static private(set) var isStarted = false;
     
     @objc public static func start()
     {
         startOnce.perform {
             initializeWindow()
             setGestureType(.panFromRight)
+            KnobManager.sharedInstance.prepareForStart()
+            Droar.isStarted = true
         }
     }
         
@@ -64,13 +67,13 @@ import Foundation
         }
     }
     
-    @objc public static func showWindow() {
+    @objc public static func showWindow(completion: (()->Void)? = nil) {
         guard !isVisible else { return }
-        toggleVisibility()
+        toggleVisibility(completion)
     }
 
-    @objc public static func dismissWindow() {
+    @objc public static func dismissWindow(completion: (()->Void)? = nil) {
         guard isVisible else { return }
-        toggleVisibility()
+        toggleVisibility(completion)
     }
 }

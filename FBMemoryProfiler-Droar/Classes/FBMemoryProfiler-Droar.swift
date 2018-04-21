@@ -17,7 +17,7 @@ import FBMemoryProfiler
     
     override private init() {}
     
-    public func droarKnobWillBeginLoading(tableView: UITableView?) {
+    public func droarKnobDidFinishRegistering() {
         dispatchOnce.perform {
             profiler.enable()
             profiler.swizzlePresentationModeSetter()

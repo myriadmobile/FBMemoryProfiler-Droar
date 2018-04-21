@@ -1,11 +1,11 @@
 PODS:
-  - Droar (1.3.3):
+  - Droar (1.3.7):
     - SDVersion
   - FBAllocationTracker (0.1.5)
   - FBMemoryProfiler (0.1.3):
     - FBAllocationTracker (~> 0.1)
     - FBRetainCycleDetector (~> 0.1)
-  - FBMemoryProfiler-Droar (0.0.1):
+  - FBMemoryProfiler-Droar (1.0.3):
     - Droar
     - FBMemoryProfiler
   - FBRetainCycleDetector (0.1.4)
@@ -21,10 +21,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Droar: a740e7b0cc22c1790d6fe602fe4fcd45b9e51b8c
+  Droar: 4ee1e8bf8e192c7cf4b14afd6337ce55e3ec1146
   FBAllocationTracker: dfdca3f71aceca6a85e95e3c6ec76a9785eba0f1
   FBMemoryProfiler: 623fc5f8a61f7d02ec75c87e3b97c90f621d8b02
-  FBMemoryProfiler-Droar: 954458ad555c7bb32f2cfc0b88ee36eeb9a6da1c
+  FBMemoryProfiler-Droar: 4e4ace37459039281dcb3588bcb6f6b80db51fa2
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   SDVersion: 18f32c835c1543611fcfae3c6accd9a04b90597e
 

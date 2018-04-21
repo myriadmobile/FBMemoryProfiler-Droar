@@ -68,9 +68,10 @@ If you conform a `UINavigationController`, `UITabBarViewController`, etc to `Dro
     
     // Title for this knob.  If title matches existing knob, they will be combined
     @objc func droarKnobTitle() -> String
-    // The positioning and priorty for this knob
     
+    // The positioning and priorty for this knob
     @objc func droarKnobPosition() -> PositionInfo
+    
     // The number of cells for this knob
     @objc func droarKnobNumberOfCells() -> Int
     
@@ -91,7 +92,11 @@ You can control which of the default sections are shown using the `registerDefau
 
 ## Plugins
 
-[Netfox](https://github.com/myriadmobile/netfox-Droar)
+### [netfox-Droar](https://github.com/myriadmobile/netfox-Droar)
+[netfox](https://github.com/kasketis/netfox) is a lightweight, one line setup, iOS / OSX network debugging library.
+
+### [FBMemoryProfiler-Droar](https://github.com/myriadmobile/FBMemoryProfiler-Droar)
+[FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler) is an iOS library providing developer tools for browsing objects in memory over time, using FBAllocationTracker and FBRetainCycleDetector.
 
 ## Author
 
